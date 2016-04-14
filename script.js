@@ -30,7 +30,6 @@ var n = roster.length;
 // }
 // while (pairs.length < n / 2) {
 while (n > 0) {
-  console.log(roster, roster.length, 'top');
   if (n === 1) {
     pairs.push(roster[0]);
     n = 0;
@@ -42,16 +41,13 @@ while (n > 0) {
     }
     var pairString = '';
     pairString = pairString + roster.splice(ind, 1);
-    console.log(ind, ind2);
     if (ind < ind2) {
       ind2 = ind2 - 1;
     } else if (ind > ind2) {
       ind2 = ind2 + 1;
     }
-    console.log(ind, ind2);
     pairString = pairString + ", " + roster.splice(ind2, 1);
     pairs.push(pairString);
-    console.log(roster, roster.length);
     n = roster.length;
   }
 }
