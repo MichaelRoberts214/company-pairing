@@ -13,6 +13,14 @@ a {
   text-decoration: none;
 }
 
+#list {
+  text-align: center;
+}
+
+#list > ul {
+  padding: 0;
+}
+
 li {
   list-style: none;
 }
