@@ -1,3 +1,17 @@
 body {
   font-family: 'Lato', sans-serif;
+  background-color: #f5f6f7;
+}
+
+a {
+  color: #3c948b;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header-one {
+  color: #14232b;
 }
