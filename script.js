@@ -1,34 +1,28 @@
 var roster = [
-  // 'abel',
+  'abel',
   'andrew',
-  // 'anjali',
-  // 'amelia',
+  'anjali',
+  'amelia',
   'daniela',
   'danny',
-  // 'diego',
+  'diego',
   'joe',
   'mark',
   'martin',
-  // 'matt',
+  'matt',
   'jon',
-  // 'jacques',
+  'jacques',
   'mr',
   'myqe',
   'thomas',
   'will',
-  // 'jared',
+  'jared',
   'julio',
   'liz'
 ]
 
 var pairs = [];
 var n = roster.length;
-// var i, j;
-// for(i = 0; i < n; i++){
-//   for(j = i + 1; j < n; j++){
-//     pairs.push(roster[i] + ", " +  roster[j]);
-//   }
-// }
 
 while (n > 0) {
   if (n === 1) {
