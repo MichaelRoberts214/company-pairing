@@ -19,7 +19,7 @@ You will need the following things properly installed on your computer.
 ### Deploying
 
 * Update the `gh-pages` branch
-* See changes [here](http://michaelroberts214.github.io/company-pairing/)
+* See your changes [here](http://michaelroberts214.github.io/company-pairing/)
 
 ## Contributing
 
